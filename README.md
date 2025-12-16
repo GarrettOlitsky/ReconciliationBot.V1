@@ -47,7 +47,7 @@ uber,Travel
 ### Clone the Repository
 ```
 git clone https://github.com/GarrettOlitsky/ReconciliationBot.V1.git
-cd ReconciliationBot
+cd ReconciliationBot.V1
 ```
 ### Run Locally
 ```
