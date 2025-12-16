@@ -44,17 +44,24 @@ amazon,Office Supplies
 starbucks,Meals
 uber,Travel
 ```
-### Clone the Repository
+### 1. Clone the Repository
 ```
 git clone https://github.com/GarrettOlitsky/ReconciliationBot.V1.git
 cd ReconciliationBot.V1
 ```
-### Run Locally
+### 2. Create and activate a virtual environment
 ```
-python -m venv .venv
-source .venv/bin/activate   # Windows: .\.venv\Scripts\Activate.ps1
+python3 -m venv .venv
+source .venv/bin/activate   # Windows: .venv\Scripts\activate
+```
+### 3. Install dependencies
+```
+pip install --upgrade pip
 pip install -r requirements.txt
-streamlit run app/main.py
+```
+### 4. Run the Streamlit app
+```
+python -m streamlit run app/main.py
 ```
 ### Notes
 Bank statements are layouts, not structured data
